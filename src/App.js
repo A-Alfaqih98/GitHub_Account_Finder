@@ -2,7 +2,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Form from './components/Form';
 import Users from './components/Users';
-import FetchAlert from './FetchAlert';
+import FetchAlert from './components/FetchAlert';
 import { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './pages/About';
