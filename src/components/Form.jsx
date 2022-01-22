@@ -13,7 +13,7 @@ function Form({ handleinput }) {
         <input
           id="textInput"
           type="text"
-          className="form-control"
+          className="form-control shadow-none"
           placeholder="Enter username"
           onKeyUp={(e) => {
             handleinput(e);

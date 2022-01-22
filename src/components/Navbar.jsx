@@ -4,7 +4,7 @@ import AboutLink from './AboutLink';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-dark bg-secondary mb-3 navbar-expand pb-0">
+    <nav className="  navbar navbar-dark bg-secondary mb-3 navbar-expand pb-0 ">
       <div className="container">
         <a href="http://localhost:3000/App" className="navbar-brand">
           <FaGithub fontSize="30px" />

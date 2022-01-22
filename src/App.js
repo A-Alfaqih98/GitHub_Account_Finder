@@ -16,6 +16,11 @@ function App() {
     <Router>
       <div className="bg-dark" style={{ height: '100vh', overflow: 'auto' }}>
         <Navbar />
+        <div className="container">
+          <p className=" alert alert-info p-0 text-center">
+            Only 10 fetches per minute can be made
+          </p>
+        </div>
         <Form handleinput={handleinput} />
         <Users forminput={forminput.length > 0 ? forminput : ''} />
         <Routes>
